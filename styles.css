@@ -1,0 +1,124 @@
+* {
+    margin-top: 0;
+}
+.my-div {
+    margin-top: 0;
+}
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin-top: 0;
+    padding: 10px;
+    padding-left: 10px;
+    padding-top: 0;
+}
+.topic{
+    border-radius: 50px;
+}
+
+.portfolio-image {
+    max-width: 200px;
+    border-radius: 110px;
+    height: auto;
+    padding: 30px;
+    position: absolute;
+    
+}
+
+
+/* Global styles */
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:rgb(13, 187, 42);
+    padding: 300px;
+    line-height: 1.5;
+    margin-top: 0;
+    background-image: url(software.jpg);
+    padding-top: 0;
+}
+
+header {
+    text-align: center;
+    color:rgb(239, 233, 233);
+    font-family:'Courier New', Courier, monospace;
+    line-height: 1.0;
+    font-size: bold;
+    text-transform:uppercase;
+    padding-top: 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+/* Colorful section styling */
+.colorful-section {
+    background-color:burlywood; /* Yellow background color */
+    border-radius: 40px;
+    padding: 10px;
+    margin: 10px;
+}
+/* CSS for the colorful-section elements */
+.colorful-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    animation: showSection 3s ease forwards;
+    opacity: 0;
+}
+
+/* Define a keyframes animation to reveal the sections */
+@keyframes showSection {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Apply delays to each section for sequential appearance */
+#objective {
+    animation-delay: 0s;
+}
+
+#skills {
+    animation-delay: 1s;
+}
+
+#soft-skills {
+    animation-delay: 3s;
+}
+
+#education {
+    animation-delay: 5s;
+}
+
+#internship {
+    animation-delay: 7s;
+}
+
+#experience {
+    animation-delay: 9s;
+}
+
+#projects {
+    animation-delay: 11s;
+}
+
+#certifications {
+    animation-delay: 13s;
+}
+
+#contact {
+    animation-delay: 15s;
+}
